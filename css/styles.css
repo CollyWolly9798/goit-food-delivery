@@ -291,3 +291,56 @@ body {
   border-right: 1px solid #7eb101;
   padding-left: 14px;
 }
+
+.special-offers {
+  padding-top: 176px;
+  padding-bottom: 200px;
+  background-color: #fafafa;
+}
+
+.offers-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.special-offers-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.special-offers-slogan {
+  margin-bottom: 24px;
+}
+
+.special-offers-form {}
+
+.special-offers-form-input {
+  max-width: 395px;
+  width: 100%;
+  margin-right: 32px;
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  height: 42px;
+}
+
+.special-offers-form-input::placeholder {
+ font-size: 12px;
+ line-height: 1.5;
+ color: #505050;
+}
+
+.special-offers-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 103px;
+  height: 42px;
+  background-color: #bbf330;
+}
